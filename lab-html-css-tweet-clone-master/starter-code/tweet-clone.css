@@ -1,0 +1,88 @@
+body {
+	font-family: Arial;
+	background-color: rgb(244, 248, 249);
+}
+
+
+.tweet-container {
+	border: solid 1px rgb(225, 232, 237);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: rgb(255, 255, 255);
+	max-width: 520px;
+	padding: 20px;
+}
+
+.follow-button {
+	float:right;
+	display: block;
+	border: solid 1px rgb(85, 172, 238);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 5px 10px;
+	color: rgb(85, 172, 238);
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.follow-button:hover {
+	background-color: rgb(85, 172, 238);
+	color: rgb(255, 255, 255);
+	font-size: .9em;
+	font-weight: bold;
+}
+
+.icon {
+	display: inline-block;
+	height: 1.1em;
+	width: 1.1em;
+	background-image: url("img/twitter-logo.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+}
+
+.avatar {
+	float: left;
+	width: 36px;
+	height: 36px;
+}
+
+.author {
+	display: block;
+	text-align: left;
+}
+
+.name {
+	margin-left: 45px;
+	font-weight: bold;
+	color: black;
+	vertical-align: top;
+	text-align: left;
+}
+
+.validated-account {
+	display: inline-block;
+	height: 1.1em;
+	width: 1.1em;
+	background-image: url("img/validated-account.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	vertical-align: top;
+}
+
+/*.name::before {
+	white-space: pre;
+    content: "\A\200e";
+}*/
+
+.screen-name {
+	font-weight: normal;
+	margin-left: 5px;
+	color: grey;
+	vertical-align: bottom;
+	direction: ltr;
+}
