@@ -6,11 +6,14 @@
    Copyright 2017 Hery Martin. All rights reserved.
 */
 
+/* Page Body Styles */
+
 body {
 	font-family: Helvetica;
 	background-color: rgb(244, 248, 249);
 }
 
+/* Tweet Container (Main Container) Styles */
 
 .tweet-container {
 	margin: auto;
@@ -23,6 +26,12 @@ body {
 	max-width: 520px;
 	padding: 20px;
 }
+
+/* ======================== */
+/* = Tweet Header Section = */
+/* ======================== */
+
+/* Follow Button Styles */
 
 .follow-button {
 	float:right;
@@ -59,17 +68,23 @@ body {
 	background-image: url("img/twitter_logo_white_16.png");
 }
 
-.avatar {
-	float: left;
-	width: 36px;
-	height: 36px;
-}
+/* Author Info Enclosure Link */
 
 .author {
 	display: block;
 	text-align: left;
 	text-decoration: none;
 }
+
+/* Avatar (Profile Picture) */
+
+.avatar {
+	float: left;
+	width: 36px;
+	height: 36px;
+}
+
+/* Author Name */
 
 .name {
 	margin-left: 10px;
@@ -78,6 +93,8 @@ body {
 	vertical-align: top;
 	text-align: left;
 }
+
+/* Validated Account Icon */
 
 .validated-account {
 	display: inline-block;
@@ -89,6 +106,8 @@ body {
 	vertical-align: top;
 }
 
+/* Account Name */
+
 .screen-name {
 	margin-left: 10px;
 	font-weight: normal;
@@ -97,23 +116,37 @@ body {
 	vertical-align: bottom;
 }
 
+/* ========================= */
+/* = Tweet Content Section = */
+/* ========================= */
+
 .content {
 	margin-top: 15px;
 }
+
+/* ======================== */
+/* = Tweet Footer Section = */
+/* ======================== */
 
 .tweet-footer {
 	margin-top: 5px;
 }
 
+/* Date Time Text */
+	
 .date-time {
 	font-size: .8em;
 	color: rgb(101, 116, 127);
 	text-decoration: none;
 }
 
+/* Actions Enclosure */
+
 .actions {
 	margin-top: 15px;
 }
+
+/* Common Action Links Styles */
 
 .actions a {
 	text-decoration: none;
@@ -121,6 +154,8 @@ body {
 	padding-right: 10px;
 	font-size: .9em;
 }
+
+/* Common Action Icons Styles */
 
 .actions a .icon {
 	height: 1.5em;
@@ -131,6 +166,8 @@ body {
 	margin-right: 5px;
 }
 
+/* Reply Icon Styles */
+
 .reply .icon {
 	width: 1.2em;
 	background-image: url("img/reply-action.png");
@@ -139,6 +176,8 @@ body {
 .reply:hover .icon {
 	background-image: url("img/reply-action-hover.png");
 }
+
+/* Retweet Icon Styles */
 
 .retweet .icon {
 	width: 1.4em;
@@ -152,6 +191,8 @@ body {
 .retweet:hover .icon {
 	background-image: url("img/retweet-action-hover.png");
 }
+
+/* Like Icon Styles */
 
 .like .icon {
 	width: 1em;
