@@ -1,10 +1,19 @@
+/*
+   tweet-clone.css
+   ih-prework-html-css
+   
+   Created by Hery Martin on 2017-02-11.
+   Copyright 2017 Hery Martin. All rights reserved.
+*/
+
 body {
-	font-family: Arial;
+	font-family: Helvetica;
 	background-color: rgb(244, 248, 249);
 }
 
 
 .tweet-container {
+	margin: auto;
 	border: solid 1px rgb(225, 232, 237);
 	border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -36,18 +45,18 @@ body {
 	font-weight: bold;
 }
 
-.icon {
+.logo {
 	display: inline-block;
 	height: 1.1em;
 	width: 1.1em;
-	background-image: url("img/Twitter_logo_blue_16.png");
+	background-image: url("img/twitter_logo_blue_16.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	vertical-align: middle;
 }
 
-.follow-button:hover .icon {
-	background-image: url("img/Twitter_logo_white_16.png");
+.follow-button:hover .logo {
+	background-image: url("img/twitter_logo_white_16.png");
 }
 
 .avatar {
@@ -98,4 +107,60 @@ body {
 .date-time {
 	font-size: .8em;
 	color: rgb(101, 116, 127);
+	text-decoration: none;
+}
+
+.actions {
+	margin-top: 15px;
+}
+
+.actions a {
+	text-decoration: none;
+	color: rgb(105, 120, 130);
+	padding-right: 10px;
+	font-size: .9em;
+}
+
+.actions a .icon {
+	height: 1.5em;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.reply .icon {
+	width: 1.2em;
+	background-image: url("img/reply-action.png");
+}
+
+.reply:hover .icon {
+	background-image: url("img/reply-action-hover.png");
+}
+
+.retweet .icon {
+	width: 1.4em;
+	background-image: url("img/retweet-action.png");
+}
+
+.retweet:hover {
+	color: rgb(25, 207, 134);
+}
+
+.retweet:hover .icon {
+	background-image: url("img/retweet-action-hover.png");
+}
+
+.like .icon {
+	width: 1em;
+	background-image: url("img/like-action.png");
+}
+
+.like:hover {
+	color: rgb(232, 28, 79);
+}
+
+.like:hover .icon {
+	background-image: url("img/like-action-hover.png");
 }
