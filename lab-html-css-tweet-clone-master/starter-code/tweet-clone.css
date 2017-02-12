@@ -68,6 +68,7 @@ body {
 .author {
 	display: block;
 	text-align: left;
+	text-decoration: none;
 }
 
 .name {
