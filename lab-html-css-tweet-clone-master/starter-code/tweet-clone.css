@@ -10,6 +10,7 @@ body {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	background-color: rgb(255, 255, 255);
+	min-width: 250px;
 	max-width: 520px;
 	padding: 20px;
 }
@@ -39,10 +40,14 @@ body {
 	display: inline-block;
 	height: 1.1em;
 	width: 1.1em;
-	background-image: url("img/twitter-logo.jpg");
+	background-image: url("img/Twitter_logo_blue_16.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	vertical-align: middle;
+}
+
+.follow-button:hover .icon {
+	background-image: url("img/Twitter_logo_white_16.png");
 }
 
 .avatar {
@@ -78,7 +83,19 @@ body {
 	margin-left: 10px;
 	font-weight: normal;
 	margin-left: 5px;
-	color: grey;
+	color: rgb(104, 109, 129);
 	vertical-align: bottom;
-	direction: ltr;
+}
+
+.content {
+	margin-top: 15px;
+}
+
+.tweet-footer {
+	margin-top: 5px;
+}
+
+.date-time {
+	font-size: .8em;
+	color: rgb(101, 116, 127);
 }
